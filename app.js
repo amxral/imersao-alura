@@ -11,7 +11,7 @@ function pesquisar() {
         // Constrói o HTML para cada item de resultado, utilizando template literals
         resultado += `
         <div class="item-resultado">
-            <h2>${dado.nome}</h2> <p class="descricao-meta">Tipo: ${dado.tipo}</p> <p class="descricao-meta">É forte contra: ${dado.forcas}</p> <p class="descricao-meta">É fraco contra: ${dado.fraquezas}</p> <p class="descricao-meta">Número na Pokédex: ${dado.numero}</p> <img src=${dado.img} alt="${dado.nome}"> <a href=${dado.link} target="_blank">Mais informações</a> </div>
+            <h2>${dado.nome}</h2> <p class="descricao-meta">Tipo: ${dado.tipo}</p> <p class="descricao-meta">É forte contra: ${dado.forcas}</p> <p class="descricao-meta">É fraco contra: ${dado.fraquezas}</p> <p class="descricao-meta">Número na Pokédex: ${dado.numero}</p> <img src=${dado.img} alt="${dado.nome}" class="pkn"> <a href=${dado.link} target="_blank">Mais informações</a> </div>
         `;
     }
 
