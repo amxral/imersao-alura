@@ -1,0 +1,12 @@
+# Pokedex Simples
+
+Um simples projeto web para pesquisar informações sobre Pokémon.
+
+## Tecnologias Utilizadas
+* **Frontend:** HTML, CSS, JavaScript
+* **Framework:** React
+
+## Funcionalidades
+* Pesquisa por nome, tipo e número da Pokédex
+* Exibição detalhada de cada Pokémon
+* Interface intuitiva e responsiva
