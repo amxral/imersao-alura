@@ -4,7 +4,7 @@ const pokemons = [
       tipo: "Grama/Veneno",
       forcas: "Água, Terra",
       fraquezas: "Fogo, Voador",
-      numero: "0001",
+      numero: "1",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/001.png",
       link: "https://www.pokemon.com/br/pokedex/bulbassauro"
     },
@@ -13,7 +13,7 @@ const pokemons = [
       tipo: "Fogo",
       forcas: "Planta, Inseto",
       fraquezas: "Água, Rocha",
-      numero: "0004",
+      numero: "4",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/004.png",
       link: "https://www.pokemon.com/br/pokedex/charmander"
     },
@@ -22,7 +22,7 @@ const pokemons = [
       tipo: "Água",
       forcas: "Fogo, Terra",
       fraquezas: "Elétrico, Planta",
-      numero: "0007",
+      numero: "7",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/007.png",
       link: "https://www.pokemon.com/br/pokedex/squirtle"
     },
@@ -31,7 +31,7 @@ const pokemons = [
       tipo: "Elétrico",
       forcas: "Voador, Água",
       fraquezas: "Terra",
-      numero: "0025",
+      numero: "25",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/025.png",
       link: "https://www.pokemon.com/br/pokedex/pikachu"
     },
@@ -40,7 +40,7 @@ const pokemons = [
       tipo: "Normal",
       forcas: "Nada",
       fraquezas: "Lutador",
-      numero: "0133",
+      numero: "133",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/133.png",
       link: "https://www.pokemon.com/br/pokedex/eevee"
     },
@@ -49,7 +49,7 @@ const pokemons = [
       tipo: "Fantasma/Veneno",
       forcas: "Psíquico, Fantasma",
       fraquezas: "Fada, Psíquico",
-      numero: "0094",
+      numero: "94",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/094.png",
       link: "https://www.pokemon.com/br/pokedex/gengar"
     },
@@ -58,7 +58,7 @@ const pokemons = [
       tipo: "Dragão/Voador",
       forcas: "Planta, Dragão",
       fraquezas: "Gelo, Dragão, Fada",
-      numero: "0149",
+      numero: "149",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/149.png",
       link: "https://www.pokemon.com/br/pokedex/dragonite"
     },
@@ -67,7 +67,7 @@ const pokemons = [
       tipo: "Psíquico",
       forcas: "Lutador",
       fraquezas: "Fantasma, Inseto",
-      numero: "0150",
+      numero: "150",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/150.png",
       link: "https://www.pokemon.com/br/pokedex/mewtwo"
     },
@@ -76,7 +76,7 @@ const pokemons = [
       tipo: "Aço/Lutador",
       forcas: "Fada, Rocha, Escuro",
       fraquezas: "Fogo, Lutador, Terra",
-      numero: "0448",
+      numero: "448",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/448.png",
       link: "https://www.pokemon.com/br/pokedex/lucario"
     },
@@ -85,7 +85,7 @@ const pokemons = [
       tipo: "Dragão/Terra",
       forcas: "Fogo, Rocha, Elétrico",
       fraquezas: "Gelo, Dragão, Fada",
-      numero: "0445",
+      numero: "445",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/445.png",
       link: "https://www.pokemon.com/br/pokedex/garchomp"
     },
@@ -94,7 +94,7 @@ const pokemons = [
       tipo: "Água/Sombrio",
       forcas: "Fogo, Terra, Fada",
       fraquezas: "Elétrico, Grama, Lutador",
-      numero: "0658",
+      numero: "658",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/658.png",
       link: "https://www.pokemon.com/br/pokedex/greninja"
     },
@@ -103,7 +103,7 @@ const pokemons = [
       tipo: "Psíquico",
       forcas: "Lutador",
       fraquezas: "Fantasma, Inseto",
-      numero: "0065",
+      numero: "65",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/065.png",
       link: "https://www.pokemon.com/br/pokedex/alakazam"
     },
@@ -112,7 +112,7 @@ const pokemons = [
       tipo: "Fogo/Lutador",
       forcas: "Aço, Grama, Inseto",
       fraquezas: "Água, Rocha, Fada",
-      numero: "0257",
+      numero: "257",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/257.png",
       link: "https://www.pokemon.com/br/pokedex/blaziken"
     },
@@ -121,7 +121,7 @@ const pokemons = [
       tipo: "Psíquico/Fada",
       forcas: "Lutador, Veneno, Sombrio",
       fraquezas: "Aço, Fantasma",
-      numero: "0282",
+      numero: "282",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/282.png",
       link: "https://www.pokemon.com/br/pokedex/gardevoir"
     },
@@ -130,8 +130,26 @@ const pokemons = [
       tipo: "Fogo",
       forcas: "Grama, Inseto, Gelo",
       fraquezas: "Água, Rocha, Terra",
-      numero: "0059",
+      numero: "59",
       img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/059.png",
       link: "https://www.pokemon.com/br/pokedex/arcanine"
+    },
+    {
+      nome: "Florges",
+      tipo: "Fada",
+      forcas: "Dragão",
+      fraquezas: "Aço",
+      numero: "671",
+      img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/671.png",
+      link: "https://www.pokemon.com/br/pokedex/florges"
+    },
+    {
+      nome: "Hawlucha",
+      tipo: "Lutador/Voador",
+      forcas: "Inseto, Normal",
+      fraquezas: "Fada, Elétrico, Rocha",
+      numero: "701",
+      img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/701.png",
+      link: "https://www.pokemon.com/br/pokedex/hawlucha"
     }
   ];

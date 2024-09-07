@@ -75,7 +75,7 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+    width: ; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
@@ -85,11 +85,13 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
+    display: flex;
     background: #FFFFFF; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    max-width: 90%;
 }
 img.pkn {
     padding: 0;
@@ -147,9 +149,18 @@ footer p {
         padding: 0.8rem; /* Espaçamento interno em telas menores */
     }
 
-    .resultados-pesquisa {
-        width: 40rem; /* Largura da caixa de resultados em telas menores */
+    .resultados-pesqusia {
+        max-width: ; /* Largura da caixa de resultados em telas menores */
         height: 40vh; /* Altura da caixa de resultados em telas menores */
+    }
+    .item-resultado {
+        width: 100%;
+        display: block;
+    }
+
+    img#home {
+        width: 100%;
+        height: auto;
     }
 
     .item-resultado h2 {
@@ -181,6 +192,11 @@ footer p {
 
     .item-resultado h2 {
         font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+    }
+
+    .item-resultado {
+        width: 80%;
+        display: block;
     }
 
     img#home {
